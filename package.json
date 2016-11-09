@@ -1,0 +1,34 @@
+{
+  "name": "@ama-team/voximplant-publisher",
+  "version": "0.1.0",
+  "description": "A simple tool to publish voximplant scenario scripts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "voximplant"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ama-team/voximplant-publisher.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ama-team/voximplant-publisher/issues"
+  },
+  "author": {
+    "name": "AMA Team",
+    "email": "dev@amagroup.ru"
+  },
+  "maintainers": [
+    {
+      "name": "Etki"
+    }
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "debug": "^2.3.0",
+    "request": "^2.78.0",
+    "request-promise": "^4.1.1"
+  }
+}
