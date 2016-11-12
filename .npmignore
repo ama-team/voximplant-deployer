@@ -1,11 +1,16 @@
-# Node files / build files
+# Node files
 node_modules
-lib
+src
 npm-debug.log
 doc
 
 # IDE files
 .idea
+
+# VCS
+.git
+.gitignore
+*.md
 
 # Things that should be eliminated by proper testing later
 .voximplant-auth.yml

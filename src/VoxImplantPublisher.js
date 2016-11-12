@@ -1,5 +1,3 @@
-'use strict';
-
 var sink = require('debug')('ama-team.voximplant-publisher.publisher');
 
 /**
@@ -17,7 +15,7 @@ function VoxImplantPublisher(api) {
             }
             sink('Scenario `%s` doesn\'t exist, creating it', name);
             return api.create(name, content);
-        });
+        })
     };
 }
 
